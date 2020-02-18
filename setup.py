@@ -1,20 +1,18 @@
-import pathlib
 from setuptools import setup, find_packages
 
-# The directory containing this file
-HERE = pathlib.Path(__file__).parent
-
-# The text of the README file
-README = (HERE / "README.md").read_text()
+with open("README.md","r") as infile:
+    README = infile.read()
 
 # This call to setup() does all the work
 setup(
     name="lipanampesa",
     version="1.0.0",
     description="Lipa na mpesa library",
+    packages=find_packages(),
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/kamauvick/package_test",
+    download_url='https://github.com/kamauvick/package_test.git',
     author="Victor Waichigo",
     author_email="waichigovick@gmail.com",
     license="MIT",
