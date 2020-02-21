@@ -1,5 +1,5 @@
 import base64
-from keys import *
+from .keys import *
 
 # Generate password
 def generate_password(formatted_time):

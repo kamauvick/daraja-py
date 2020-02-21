@@ -1,10 +1,9 @@
 import requests
 from datetime import datetime
 from decouple import config, Csv
-from keys import *
-from access_token import generate_access_token
-from utils import generate_timestamp
-from password import generate_password
+from .access_token import generate_access_token
+from .utils import generate_timestamp
+from .password import generate_password
 
 # Execute all functions
 formatted_time = generate_timestamp()

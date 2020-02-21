@@ -1,6 +1,6 @@
 import requests
-from keys import *
-from access_token import generate_access_token
+from .keys import *
+from .access_token import generate_access_token
 from decouple import config
 
 my_access_token = generate_access_token()
