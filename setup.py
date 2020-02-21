@@ -5,14 +5,14 @@ with open("README.md","r") as infile:
 
 # This call to setup() does all the work
 setup(
-    name="lipanampesa",
+    name="daraja-py",
     version="1.0.0",
     description="Lipa na mpesa library",
     packages=find_packages(),
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/kamauvick/package_test",
-    download_url='https://github.com/kamauvick/package_test.git',
+    url="https://github.com/kamauvick/daraja-py",
+    download_url='https://github.com/kamauvick/daraja-py.git',
     author="Victor Waichigo",
     author_email="waichigovick@gmail.com",
     license="MIT",
